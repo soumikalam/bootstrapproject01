@@ -1,0 +1,305 @@
+/*
+author: soumik khan
+email:olindoalam342@gmail.com
+
+
+*/
+/*
+===index===
+1.header
+2.Fusce at         
+3. Facilisis                
+4.Ante donec 
+5.Blandit rhoncus
+6.Placerat
+*/
+
+
+
+/*global css*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    font-family: 'roboto', sans-serif;
+}
+h1{
+    
+}
+
+
+h3
+{
+ color: #ffffff;
+ font-size: 18px;
+ font-weight: bold;
+ padding: 25px 0px;
+}
+
+
+
+
+h5{
+
+}
+h6{
+    color: #ffffff;
+ font-size: 15px;
+
+ 
+}
+p{
+ font-size: 30px;
+ color: #ffffff;
+
+}
+
+
+/*theme css*/
+
+.nav-head
+{
+    background-color: #edeff1;
+    padding: 15px 0px;
+}
+.nav-link
+{
+    color: #31353e;
+}
+.nav-link.js-scroll-trigger.active
+{
+    color: #fff;
+    background-color: #dd4b2b;
+    padding: 10px 25px;
+    border-radius: 27px;
+}
+.fa.fa-cutlery
+{
+    color: chocolate;
+
+}
+.hero
+{
+    background: url(../image/banner.jpg)no-repeat;
+    background-size: cover;
+
+    margin-top: 90px;
+    
+}
+.hero-main
+{
+    text-align: center;
+    
+}
+.hero-main h2
+{
+    font-size: 71px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 190px;
+
+}
+.hero-feature
+{
+    text-align: center;
+    margin-top: 124px;
+}
+
+.read-btn
+{
+   
+    margin: 35px auto;
+    display: block;
+    
+    color: #612316;
+    background-color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 25px;
+    
+}
+.news{
+    background-color: #edeff1;
+}
+.news h4{
+        color: #72747a;
+        text-align: center;
+        font-size: 30px;
+        font-weight: lighter;
+        padding: 50px 0px;
+    }
+
+.news-feature h2{
+    font-size: 24px;
+    color:#31353e ;
+    font-weight: bold;
+    padding: 40px 0px 15px;
+    text-align: center;
+
+    }
+
+.news-feature p
+    {
+        font-size: 18px;
+        color:#31353e ;
+        font-weight: lighter;
+        padding: 0px 35px 15px;
+        text-align: center;
+    
+
+    }
+
+    .read-more
+    {
+       
+        margin: 45px auto;
+        display: block;
+        font-size: 15px;
+        color: #612316;
+        background-color: #ffffff;
+        padding: 10px 25px;
+        border-radius: 25px;
+        border: none;
+        
+    }
+
+.newsletter
+{
+    background: url(../image/banner02.jpeg)no-repeat;
+    background-size: cover;
+    
+}
+.newsletter-form h2
+{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+
+}
+.newsletter-form p
+
+{
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: lighter;
+
+}
+.bland{
+    background-color: #ffffff;
+}
+
+.bland-left h2
+{color: #191b29;
+ font-size: 30px;
+ font-weight: bold;
+ padding: 60px 0px 15px ;
+}
+.bland-left p
+{   color:#191b29 ;
+    font-size: 16px;
+    font-weight: lighter;
+      
+}
+.bland-left h5
+{   color:#191b29 ;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-bottom: 50px;  
+}
+
+.sign-up
+{
+   
+    margin: 0px auto;
+    display: left;
+    
+    color: #fff;
+    background-color: #dd4b2b;
+    padding: 5px 40px;
+    border-radius: 27px;
+    border: none;
+    
+}
+.bland-right h2
+{color: #191b29;
+ font-size: 30px;
+ font-weight: bold;
+ padding: 60px 0px 15px ;
+}
+.bland-right p
+{   color:#191b29 ;
+    font-size: 16px;
+    font-weight: lighter;
+      
+}
+.bland-right h5
+{   color:#191b29 ;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-bottom: 50px;  
+}
+
+.sign-up-right
+{
+   
+    margin: 0px auto;
+    display: left;
+    
+    color: #fff;
+    background-color: #4b4e73;
+    padding: 5px 40px;
+    border-radius: 27px;
+    border: none;
+    
+}
+.placerat
+{
+    background-color: #d75d0e;
+}
+.placerat-feature h2
+{
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 100px;
+
+}
+.footer
+{
+    background: url(../image/footer.jpg)no-repeat;
+    background-size: cover;
+}
+.footer-text
+{
+    font-size: 5px;
+    font-weight: lighter;
+    padding: 90px 0px 250px;
+    text-align: center;
+
+}
+
+.sign-up-slide {
+    padding: 10px 50px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 18px;
+    position: absolute;
+    right: 0px;
+    border: none;
+    top: 2px;
+}
+.mail {
+    border-radius: 30px;
+    padding: 11px 120px 11px 23px;
+    background-color: #ffffff30;
+    position: relative;
+}
+.letter-input
+{
+    text-align: center;
+}
+
+
